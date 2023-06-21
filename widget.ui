@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>550</y>
+     <width>651</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	bonder:none;
+}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/3.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/7.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/2.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/1.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/4.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>36</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/  /lib/png/5.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>581</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSlider" name="verticalSlider">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>469</y>
+     <width>20</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="playCourseSlider">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>530</y>
+     <width>431</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="currrentlabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>530</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totallabel">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>530</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>456</y>
+     <width>581</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
